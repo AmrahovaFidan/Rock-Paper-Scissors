@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 207, 176);
+
+    
+}
+.resultcontainer{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+/* Game name is contaniner */
+.gameName {
+    width: 65%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    border: 3px dotted rgb(146, 65, 7);
+    margin-bottom: 20px;
+    
+}
+
+.gameName h1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: chocolate;
+}
+
+.gameName p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: chocolate;
+    font-weight: 700;
+}
+
+
+
+
+/* Names */
+
+.player1 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 5px;
+    width: 20%;
+    border: 3px dotted rgb(146, 65, 7);
+
+}
+
+.player1 p {
+    text-align: center;
+    color: chocolate;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.player2 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 5px;
+    width: 20%;
+    border: 3px dotted rgb(146, 65, 7);
+}
+
+.player2 p {
+    text-align: center;
+    color: chocolate;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.vs {
+    color: chocolate;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.names {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+
+}
+
+/* simvol is contaniner  */
+
+.meScore {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 5px;
+    width: 20%;
+    border: 3px dotted rgb(146, 65, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meScore p {
+    color: chocolate;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.comScore {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 5px;
+    width: 20%;
+    border: 3px dotted rgb(146, 65, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comScore p {
+    color: chocolate;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.simvol {
+    display: flex;
+    gap: 254px;
+
+}
+
